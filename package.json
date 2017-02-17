@@ -1,0 +1,44 @@
+{
+  "name": "mia",
+  "version": "1.0.0",
+  "description": "Chatbot for customized health plan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JubinationTeam/chatbotjubi.git"
+  },
+  "keywords": [
+    "chatbot",
+    "mia"
+  ],
+  "author": "Souvik Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JubinationTeam/chatbotjubi/issues"
+  },
+  "homepage": "https://github.com/JubinationTeam/chatbotjubi#readme",
+  "dependencies": {
+    "async-waterfall": "^0.1.5",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "date-and-time": "^0.4.0",
+    "email-validator": "^1.0.7",
+    "express": "^4.14.1",
+    "fb-messenger": "^1.1.0",
+    "fibers": "^1.0.15",
+    "fs": "0.0.1-security",
+    "futures": "^2.3.3",
+    "mongoose": "^4.8.1",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "promise": "^7.1.1",
+    "promised-io": "^0.3.5",
+    "q": "^1.4.1",
+    "replaceall": "^0.1.6",
+    "request": "^2.79.0",
+    "sentence-tokenizer": "0.0.7"
+  }
+}
